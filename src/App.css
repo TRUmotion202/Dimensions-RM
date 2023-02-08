@@ -6,7 +6,7 @@
 }
 
 .app__nav {
-  background: url("public/image 2.jpg") no-repeat center center;
+  background: url("/image-2.jpg") no-repeat center center;
   aspect-ratio: 16/4;
   display: flex;
   align-items: center;

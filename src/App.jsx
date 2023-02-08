@@ -5,8 +5,8 @@ import Location from './components/Location'
 import NumberPages from './components/NumberPages'
 import Pagination from './components/Pagination'
 import ResidentForm from './components/ResidentForm'
-import { getRandomNumber } from './utils/HandleRandom'
-import rickymorty from "../public/image 1.png"
+import { getRandomNumber } from './utils/handleRandom.js'
+
 
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="app__nav"><img src={rickymorty} alt="" /></div>
+      <div className="app__nav"><img src="/image-1.png" alt="" /></div>
       <div className="app__content">
         <h1 className='app__title'>Rick and Morty  DIMENSIONS</h1>
         <ResidentForm handleSubmit={handleSubmit} />
