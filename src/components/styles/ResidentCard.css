@@ -1,0 +1,60 @@
+.content__container {
+    background-color: var(--Dark-Green);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 10px;
+}
+
+.content__name{
+    text-align: center;
+}
+.content__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content__data {
+    padding: 0 20px 10px;
+    color: white;
+}
+
+.content__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content__list-e span {
+    font-weight: bold;
+    color: darkgray;
+}
+
+.container__status {
+    position: absolute;
+    top: 20px;
+    background-color: var(--Dark-Green);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.content__circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--Gray);
+}
+
+.Alive {
+    background-color: var(--Green);
+}
+
+.Dead {
+    background-color: var(--Red);
+}

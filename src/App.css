@@ -1,0 +1,35 @@
+.App {
+  min-height: 100vh;
+  background-color: var(--Very-Dark-Green);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app__nav {
+  background: url("public/image 2.jpg") no-repeat center center;
+  aspect-ratio: 16/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__content {
+  display: grid;
+  max-width: 1024px;
+  margin: auto;
+
+}
+
+.pagination__content {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: auto;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.app__title {
+  text-align: center;
+  margin: 30px 0;
+  color: rgba(255, 255, 255, 0.555);
+}

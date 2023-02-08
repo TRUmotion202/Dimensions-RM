@@ -1,0 +1,18 @@
+.pages__container {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.pages__lists {
+    padding: 9px 14px;
+    background-color: var(--Dark-Green);
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 300ms ease;
+}
+
+.pages__lists:hover {
+    background-color: var(--Light-Dark-Green);
+}

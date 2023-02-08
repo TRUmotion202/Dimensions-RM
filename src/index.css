@@ -1,0 +1,35 @@
+:root {
+  --Very-Dark-Green: #062226;
+  --Dark-Green: #05292E;
+  --Light-Dark-Green: #08434b;
+  --Green: #4AB648;
+  --Red: #B94343;
+  --Gray: #938686;
+}
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
